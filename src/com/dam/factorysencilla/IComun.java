@@ -9,5 +9,5 @@ public interface IComun {
     /**
      * método que visualiza en distintos medios
      */
-    void visualiza();
+    void visualiza(String msg);
 }

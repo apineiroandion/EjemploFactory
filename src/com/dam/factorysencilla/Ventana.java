@@ -6,21 +6,15 @@ import javax.swing.JOptionPane;
  * Esta clase es un producto
  */
 public class Ventana implements IComun {
-    private String msg;
 
-    /**
-     * Constructor
-     * @param msg mensaje que queremos imprimir
-     */
-    public Ventana(String msg) {
-        this.msg = msg;
+    public Ventana() {
     }
 
     /**
      * Visualizamos mensaje por consola
      */
     @Override
-    public void visualiza(){
+    public void visualiza(String msg){
         JOptionPane.showMessageDialog(null,"Sale por un ventana " + msg);
     }
 }
